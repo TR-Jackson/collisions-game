@@ -1,5 +1,4 @@
-# COMP16321-Labs
-## Tom Jackson Cwk-02: Obstacle Dodging Game
+# Tom Jackson Cwk-02: Obstacle Dodging Game
 ### How to play:
 
 - Run the main.py file
@@ -17,3 +16,5 @@
 ### Known Bugs:
 
 - Sometimes the obstacles can glitch out of bounds or get stuck to other each other
+-> This occurs when an object collides with a wall close to a corner and is moved through the adjacent wall when calculating the new location
+-> To fix would have to add indefinite iteration when calculating the new direction vector to see if it intersects with any other walls (would repeat collision logic until no collision within remaining time/tick)
