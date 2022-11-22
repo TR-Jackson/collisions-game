@@ -15,6 +15,6 @@
 
 ### Known Bugs:
 
-- Sometimes the obstacles can glitch out of bounds or get stuck to other each other
--> This occurs when an object collides with a wall close to a corner and is moved through the adjacent wall when calculating the new location
+- Sometimes the obstacles can glitch out of bounds or get stuck to other each other  
+-> This occurs when an object collides with a wall close to a corner and is moved through the adjacent wall when calculating the new location  
 -> To fix would have to add indefinite iteration when calculating the new direction vector to see if it intersects with any other walls (would repeat collision logic until no collision within remaining time/tick)
